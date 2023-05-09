@@ -1,0 +1,145 @@
+#main-header{
+
+    color: blue;
+    background-color: none;
+    font-family: cursive;
+    font: 150px;
+    text-align: center;
+    text-decoration: underline;
+
+}
+#main-body{
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
+}
+#dedicated-team{
+    text-decoration: underline;
+    color: blue;
+}
+#our-mission{
+    text-decoration: underline;
+    color: blue;
+}
+#main-bodyb{
+    background-color: goldenrod;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+#bodyc{
+    background-color: aqua;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-weight: bold;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    
+}
+#myButton{
+    border: none;
+    border-color: violet;
+    background-color: black;
+    color: white;
+    width: 65px;
+    border-radius: 2px;
+    padding: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#myButton:hover {
+    opacity: 0.7;
+    color: white;
+    background-color: blueviolet;
+
+}
+#day{
+    text-align: center;
+    text-decoration: aliceblue;
+    background-color: none;
+    color: black;
+    border: 0cap;
+}
+#nursery{ 
+    text-align: center; 
+    text-decoration-color: antiquewhite;
+    color: blue;
+    background-color: none;
+    font-family: cursive;
+    text-decoration: underline;
+
+}
+#pinocchio{
+    width: 200px ;
+    float: right;
+    margin-top: 0px;
+}
+#spider-man{
+    width: 200px;
+    float: left;
+}
+#our-mission{
+    width: 600px;
+    
+    border-radius: 10px;
+    border-color: yellow;
+    margin-left: 10px;
+    
+}
+#team{
+    width: 200px;
+    border-radius: 20px;
+    border: white;
+    border-width: 2px;
+}
+#safety{
+    width: 600px;
+    border-radius: 10px;
+    color: blue;
+
+}   
+#nutrition{
+    width: 200px;
+    border-radius: 500px;
+    
+
+}
+#curriculum{
+    width: 300px;
+    border-radius: 150px;
+    
+}
+#school-term{
+
+    width: 500px;
+    border-radius: 10px;
+}
+#swimming{
+    width: 500px;
+    border-radius: 5px;
+}
+#director{
+    width: 500px;
+    border-radius: 250px;
+}
+.nutrition-heading{
+    color: blue;
+}
+
+#list{
+
+    list-style: none;
+}
+#fullday{
+    width: 300px;
+    border-radius: 150px;
+    border: none;
+}
+.fullday{
+    color: blue;
+    font-size: 20px;
+}
+li{
+    color: blue;
+    font-size: 20px;
+} 
