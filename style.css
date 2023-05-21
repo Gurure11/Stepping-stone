@@ -4,8 +4,9 @@
     background-color: none;
     font-family: cursive;
     font: 150px;
-    text-align: center;
+    text-align: left;
     text-decoration: underline;
+    display: block;
    
 
 }
