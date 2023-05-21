@@ -56,14 +56,14 @@
 
 }
 #day{
-    text-align: center;
+    text-align: right;
     text-decoration: aliceblue;
     background-color: none;
     color: black;
     border: 0cap;
 }
 #nursery{ 
-    text-align: center; 
+    text-align: right; 
     text-decoration-color: antiquewhite;
     color: blue;
     background-color: none;
