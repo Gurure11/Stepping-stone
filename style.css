@@ -13,7 +13,7 @@
 
 }
 #main-body{
-    background-color: aqua;
+    background-color: goldenrod;
     color: black;
     font-weight: bold;
   
@@ -103,11 +103,13 @@
     width: 600px;
     border-radius: 10px;
     color: blue;
+    text-decoration: underline;
 
 }   
 #nutrition-pic{
     width: 200px;
     border-radius: 500px;
+    
     
 
 }
