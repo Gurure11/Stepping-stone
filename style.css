@@ -208,5 +208,6 @@ li{
 }
 #info{
      colour: white;
-    font-size: 25px
+    font-size: 25px;
+    margin-left: 12px;
 }
