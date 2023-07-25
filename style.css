@@ -296,7 +296,9 @@ li{
 #subscribe{
 color: white;
 background-color: red;
-padding: 5px;    
+padding: 5px; 
+border: none;
+border-radius: 2px;
     
 }
 #subscribe:hover{
@@ -314,5 +316,5 @@ padding: 5px;
     color: red;
     background-color: green;
     opacity: 0.7;
-    pointer: cursor;
+    cursor: pointer;
 }
