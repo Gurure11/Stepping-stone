@@ -91,7 +91,7 @@
     float: left;
 }
 #our-mission{
-    width: 600px;
+    width: 700px;
     
     border-radius: 10px;
     border-color: yellow;
@@ -99,21 +99,21 @@
     
 }
 #team{
-    width: 200px;
-    border-radius: 20px;
+    width: 700px;
+    border-radius: 10px;
     border: white;
     border-width: 2px;
 }
 #safety{
-    width: 600px;
+    width: 700px;
     border-radius: 10px;
     color: blue;
     text-decoration: underline;
 
 }   
 #nutrition-pic{
-    width: 200px;
-    border-radius: 500px;
+    width: 700px;
+    border-radius: 10px;
     
     
 
