@@ -275,3 +275,14 @@ li{
     width: 500px;
     border-radius: 5px;
 }
+#subscribe{
+color: white;
+background-color: red;
+padding: 5px;    
+    
+}
+#subscribe:hover{
+    color: blue;
+    background-color: green;
+    cursor: pointer;
+}
