@@ -1,14 +1,14 @@
 #heading{
 
     color: white;
-    background-color: black;
+    background-color: blue;
     font-family: cursive;
-    font-weight: 15px;
+    font-weight: 30px;
     text-align: center;
     text-decoration: underline;
     display: block;
-    border radius: 60px;
-    border: 2px;
+    
+    
    
 
 }
