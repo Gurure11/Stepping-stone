@@ -38,13 +38,13 @@
 
 }
 #bodyc{
-    background-color: aqua;
+    background-color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     font-weight: bold;
     background-image: url(images/logo.jpg);
     background-size: cover;
-    color: white;
+    color: blue;
     
 }
 #myButton{
