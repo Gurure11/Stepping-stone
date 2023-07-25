@@ -194,6 +194,7 @@ li{
  }
 #tese{width: 500px;
     border-radius: 5px;
+      margin-right: 12px;
      }
 #cont{
     margin-left: 12px;
@@ -202,7 +203,7 @@ li{
 #event{
     margin-left: 12px;
     margin-right: 12px;
-    
+    margin-right: 12px;
 }
 #derere{
     margin-left: 12px;
@@ -223,6 +224,7 @@ li{
 #ba{
     width: 500px;
     border-radius: 5px;
+    margin-right: 12px;
 }
 #{
     width: 500px;
@@ -235,6 +237,7 @@ li{
 #bi{
     width: 500px;
     border-radius: 5px;
+    margin-right: 12px;
 }
 #bo{
     width: 500px;
@@ -243,6 +246,7 @@ li{
 #bu{
     width: 500px;
     border-radius: 5px;
+    margin-right: 12px;
 }
 #ha{
     width: 500px;
@@ -251,6 +255,7 @@ li{
 #he{
     width: 500px;
     border-radius: 5px;
+    margin-right: 12px;
 }
 #hi{
     width: 500px;
@@ -259,6 +264,7 @@ li{
 #ho{
     width: 500px;
     border-radius: 5px;
+    margin-right: 12px;
 }
 #hu{
     width: 500px;
@@ -267,6 +273,7 @@ li{
 #ga{
     width: 500px;
     border-radius: 5px;
+    margin-right: 12px;
 }
 #ge{
     width: 500px;
@@ -275,6 +282,7 @@ li{
 #gi{
     width: 500px;
     border-radius: 5px;
+    margin-right: 12px;
 }
 #go{
     width: 500px;
@@ -283,6 +291,7 @@ li{
 #gu{
     width: 500px;
     border-radius: 5px;
+    margin-right: 12px;
 }
 #subscribe{
 color: white;
