@@ -304,3 +304,15 @@ padding: 5px;
     background-color: green;
     cursor: pointer;
 }
+#send{
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 2px;
+}
+#send:hover{
+    color: red;
+    background-color: green;
+    opacity: 0.7;
+    pointer: cursor;
+}
