@@ -1,11 +1,158 @@
 <!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="creche in veerining">
-    <meta name="keywords" content="pre-school, stepping stone">                                  
-    
-    <title>Stepping Stone</title>  
-   
+	<title>STEPPING STONE NURSERY SCHOOL</title>
+	<meta name="description" content="Stepping Stone">
+	<meta name="keywords" content="nursery school, creche, pre-school">
+	<style type="text/css">
+		*{
+			padding: 0;
+			margin: 0;
+			text-decoration: none;
+			list-style: none;
+			box-sizing: border-box;
+		}
+		nav{
+			background: blue;
+			height: 80px;
+			width: 100%;
+			display: inline-block;
+		}
+		#main-head{
+			font-size: 20px;
+			color: white;
+			line-height: 80px;
+			display: inline-block;
+			margin-bottom: 0px;
+			float: left;
+
+
+		}
+		nav ul{
+			float: right;
+			margin-right: 20px;
+			display: inline-block;
+
+		}
+		nav ul li{
+			display: inline-block;
+			line-height: 80px;
+			margin: 0 5px;
+			position: relative;
+
+		}
+		nav ul li a{
+			color: white;
+			font-size: 20px;
+			text-transform: uppercase;
+			padding: 7px 13px;
+			border-radius: 3px;
+			display: inline-block;
+					
+			}
+			a.active,a:hover{
+				color: white;
+				transition: 0.15s;
+				
+
+			
+			}
+			
+			nav ul li a:hover{
+				color: white;
+				display: inline-block;
+				background-color: green;
+				padding: 5px;
+				padding-top: 5px;
+				padding-bottom: 5px;
+				transition: 0.15s;
+				opacity: 0.5;}
+	
+
+			
+		#slider{
+			overflow: hidden;
+		}
+		#slider figure{
+			position: relative;
+			width: 500%;
+			margin: 0;
+			left: 0;
+			animation: 20s slider infinite;
+
+		}
+		#slider figure img{
+			float: left;
+			width: 20%;
+		}
+		@keyframes slider{
+			0%{
+				left: 0;
+			}
+			20%{
+				left: 0;
+			}
+			25%{
+				left: -100%;
+			}
+			45%{
+				left: -100%;
+			}
+			50%{
+				left: -200%;
+			}
+			70%{
+				left: -200%;
+			}
+			75%{
+				left: -300%;
+			}
+			95%{
+				left: -300%;
+			}
+			100%{
+				left: -400%;
+			
+		}
+		.facebook{
+			width: 20px;
+			border-radius: 1px;
+		}
+		.instagram{
+			width: 10px;
+			border-radius: 1px;
+		}
+
+	</style>
+</head>
+
+	<br>
+<body>
+	
+	<nav>
+
+
+<h6 id="main-head">STEPPING STONE NURSERY SCHOOL</h6><br>
+		
+	
+	<ul>
+		<li><a class="active" href="index.html">Home</a></li>
+		<li><a href="blog.html">About Us</a></li>
+		<li><a href="blog.html">Services</a></li>
+		<li><a href="Blogb.html">Contacts</a></li>
+	</ul>
+	</nav>
+
+
+<div id="slider">
+	<figure>
+	<img src="images/da.jpg">
+	<img src="images/de.jpg">
+	<img src="images/di.jpg">
+	<img src="images/do.jpg">
+	</figure>
+	
+</div>
+</body>
+</html>
