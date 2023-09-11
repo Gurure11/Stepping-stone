@@ -366,8 +366,9 @@ border-radius: 2px;
 #de{
     width: 500px;
     border-radius: 5px;
+    height: 500px;
 }
-#{
+#di{
      width: 500px;
     border-radius: 5px;
 }
