@@ -2,9 +2,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>STEPPING STONE NURSERY SCHOOL</title>
-	<meta name="description" content="Stepping Stone">
-	<meta name="keywords" content="nursery school, creche, pre-school">
+	<title>Stepping Stone Nursery School</title>
+	<meta name="description" content="A & R Furniture">
+	<meta name="keywords" content="recliner couches for sale, couches , upholstery in vereening, sofa replacement, leather couches in vereening, dining chairs ">
 	<style type="text/css">
 		*{
 			padding: 0;
@@ -14,25 +14,25 @@
 			box-sizing: border-box;
 		}
 		nav{
-			background: blue;
+			background: black;
 			height: 80px;
 			width: 100%;
-			display: inline-block;
 		}
 		#main-head{
-			font-size: 20px;
+			font-size: 30px;
 			color: white;
 			line-height: 80px;
+			background-size: cover;
 			display: inline-block;
 			margin-bottom: 0px;
-			float: left;
+			text-align: float left;
+			margin-right: 20px;
 
 
 		}
 		nav ul{
 			float: right;
 			margin-right: 20px;
-			display: inline-block;
 
 		}
 		nav ul li{
@@ -56,7 +56,18 @@
 				transition: 0.15s;
 				
 
-			
+			}
+			.checkbtn{
+				font-size: 30px;
+				color: white;
+				float: right;
+				line-height: 80px;
+				margin-right: 40px;
+				cursor: pointer;
+				display: none;
+			}
+			#check{
+				display: none;
 			}
 			
 			nav ul li a:hover{
@@ -67,92 +78,193 @@
 				padding-top: 5px;
 				padding-bottom: 5px;
 				transition: 0.15s;
-				opacity: 0.5;}
+				opacity: 0.5;
+			}
+			#body-main{
+				background-image: url(images/good.jpg);
+				background-size: cover;
+			}
+			#tribe{
+				color: white;
+				margin-right: 10px;
+			}
+			#facebook{
+				width: 30px;
+				border-radius: 7px;
+				margin-right: 10px;
+				margin-left: 30px;
+			}
+			#instagram{
+				width: 20px;
+				border-radius: 5px;
+			}
+			#tribe:hover{
+				color: blue;
+				background-color: white;
+				cursor: pointer;
+			}
+		
+		a:hover{
+			color: red;
+			background-color: green,
+			cursor: pointer;
+			opacity: 0.6;
+			transition: 0.17s;
+		}
+		#container{
+			width: 100%;
+			min-height: 100vh;
+			padding: 5%;
+			background-image: url(images/search);
+			background-position: center;
+			background-size: cover;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.slider-frame{
+		overflow: hidden;
+		width: 800px;
+		margin-left: 400px;
+		margin-top: 20px;
+		height: 700px;
+		margin-left: 360px;
+		margin-top: 20px;
+
+	}
+	#j{
+		width: 800px;
+		border-radius: 5px;
+	}
+	#k{
+		width: 800px;
+		border-radius: 5px;
+	}
+	#l{
+		width: 800px;
+		border-radius: 5px;
+	}
+
+	@-webkit-keyframes slide_animation{
+		0% {left:0px;}
+		10% {left:0px;}
+		20% {left:800px;}
+		30% {left:800px;}
+		40% {left:1600px;}
+		50% {left:1600px;}
+		60% {left:800px;}
+		70% {left:800px;}
+		80% {left:0px;}	
+		90% {left:0px;}
+		100% {left:0px;}
+		
+	}
+	.slide-images{
+		width: 800px;
+		margin: 0 0 0 -800px;
+		position: relative;
+		-webkit-animation-name: slide_animation;
+		-webkit-animation-duration: 20s;
+		-webkit-animation-iteration-count: infinite;
+		-webkit-animation-direction: alternate;
+		-webkit-animation-play-state: running;
+	}
+	.image-container{
+		width: 900px;
+		position: relative;
+		float: left;
+		height: 800px;
+	}
+	.fit-screen{
+		height: 100dvh;
+		
+	}	
+	h5{ color: white;
+	font-size: 20px; 
+}
+#chain{
+	width: 100px;
+	border-radius: 50px;
+	display: inline-block;
 	
 
-			
-		#slider{
-			overflow: hidden;
-		}
-		#slider figure{
-			position: relative;
-			width: 500%;
-			margin: 0;
-			left: 0;
-			animation: 20s slider infinite;
 
-		}
-		#slider figure img{
-			float: left;
-			width: 20%;
-		}
-		@keyframes slider{
-			0%{
-				left: 0;
-			}
-			20%{
-				left: 0;
-			}
-			25%{
-				left: -100%;
-			}
-			45%{
-				left: -100%;
-			}
-			50%{
-				left: -200%;
-			}
-			70%{
-				left: -200%;
-			}
-			75%{
-				left: -300%;
-			}
-			95%{
-				left: -300%;
-			}
-			100%{
-				left: -400%;
-			
-		}
-		.facebook{
-			width: 20px;
-			border-radius: 1px;
-		}
-		.instagram{
-			width: 10px;
-			border-radius: 1px;
-		}
-
+}
+h4{
+	color: white;
+	text-align: center;
+}
+p{
+	color: black;
+	text-align: center;
+}
+#whats{
+	width: 30px;
+	border-radius: 7px;
+	margin-right: 10px;
+}	
+h5{
+	color: white;
+	margin-left: 30px;
+}		
 	</style>
+	<link rel="stylesheet" type="text/css" href="http://kit.fontawesome.com/a076d05399">
 </head>
 
+<br>
+<body id="body-main">
+	<div class="fit-screen">
+	 <img id="chain" src="images/va.png"><h1 id="main-head">STEPPING STONE NURSERY SCHOOL </h1>
 	<br>
-<body>
-	
 	<nav>
-
-
-<h6 id="main-head">STEPPING STONE NURSERY SCHOOL</h6><br>
+<h5></h5>
 		
-	
-	<ul>
-		<li><a class="active" href="index.html">Home</a></li>
-		<li><a href="blog.html">About Us</a></li>
-		<li><a href="blog.html">Services</a></li>
+	<a href=""><img id="facebook" src="images/facebook.jpg" target="_blank"></a>
+	<a href="https://api.whatsapp.com/send?phone=%2B27733730577&data=ARArWsDNitpWZheDda1cy78LTY1BSsjPn6c5_YJ492M1sTHf3qNvD9NDIKQxi_jQQN-PvMdjncOxTtlHWB-y1_5s_Igx-9PST05H4AMjusDB4CCMF_-stHU1mlAIxp1cleMGK6mV5_FgCKuf0aYLcvM4Vw&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR35dsDp1hRv3XR7CKfl_JQFM9sFJfqnGRnaL3AUPwHv1xIcT_6wOcCfSX0"><img id="whats" src="images/whats.jpeg"></a>
+	 	
+		<ul>
+		<li><a class="active" href="index.html">HOME</a></li>
+		<li><a href="blog.html">ABOUT US</a></li>
+		<li><a href="blog.html">ADMISSIONS</a></li>
 		<li><a href="Blogb.html">Contacts</a></li>
 	</ul>
 	</nav>
+	<br>
+		<h5>+27 73 373 0577</h5>
+	<br>
 
+	<div class="slider-frame">
+	<div class="slide-images">
+		
+			
+			<div class="img-container">
+				<img  src="images/advert.png">
+				
+			</div>
 
-<div id="slider">
-	<figure>
-	<img src="images/th.jpeg">
-	<img src="images/ta.jpeg">
-	<img src="images/tc.jpeg">
-	<img src="images/ti.jpeg">
-	</figure>
+			<div class="img-container">
+				<img  src="">
+				
+			</div>
+			
+	</div>
+</div>
 	
 </div>
+	<br>
+	<br>
+
+	<br>
+	<br> 
+	<br>
+	<br>
+	<br>
+	<h4>2024 Intake</h4><br>
+
+<p>We are now open to 2024 3 months- grade R Intake .</p>
+	<br>
+	<h4>Day & After Care Sercices</h4><br>
+	<p>Weekend Special when you want to travel we can look after the child the whole weekend at an affordable fee<br></p>
+	
 </body>
 </html>
