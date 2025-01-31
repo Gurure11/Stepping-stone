@@ -1,100 +1,273 @@
 <!DOCTYPE html>
-<html>
-    <head><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4531257337326657"
-     crossorigin="anonymous"></script>
-	    
-	    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-6FLKZ6F9JW"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stepping Stone Blog</title>
+    <meta name="description" content="Stepping Stone Nursery School - Providing a safe and nurturing environment for children.">
+    <meta name="keywords" content="stepping stone nursery, creche in Vereening, nursery school, pre-school, day care center">
+    <meta name="google-adsense-account" content="ca-pub-4531257337326657">
+    <link rel="canonical" href="https://www.steping-stone.org">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-  gtag('config', 'G-6FLKZ6F9JW');
-</script>
-        <title>Stepping Stone Blog           
-        </title>
-       
-    
-        <link rel="stylesheet" href="style.css">
-        <a id="home" href="index.html">Home Page</a>
-        <a id="info" href="blog.html">About Us      
-        </a>
-    </head>
-    <body id="bodyc">
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
 
-     
-<p>Stepping Stone day and after care nursing school aims to create a dynamic, welcoming atmosphere for children 0-5 years where learning is fun!!!</p>
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
 
+        header h1 {
+            margin-bottom: 0.5rem;
+        }
 
-Full Day 06:00-1900<br>
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444;
+            padding: 0.5rem 0;
+        }
 
-Part time available<br>
-Half Day 06:00-1600<br>
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
 
+        nav a:hover {
+            color: #ff6347;
+        }
 
-After Care 16:00-1900<br>
-Weekend special<br>
-    <hr>
-    <br>
-    <form action="https://formsubmit.co/pusejoy@gmail.com" method="POST">
-			<div>
-			
-			<label>Name</label>
-			<input type="text" name="firstName" placeholder="Enter first name"><br>
-			<br>
-			<label>Surname</label>
-			<input type="text" name="lastName" placeholder="Enter Surname"><br>
-			<br>
-			<label>Contact Number</label>
-			<input type="text" placeholder="cell no."><br><br>
-			<label>EMAIL</label>
-			<input type="email" name="EMAIL" placeholder="EMAIL"><br>
-				<br>
-				<br>
-				<label id="subscribe">Subscribe</label>
-				<input type="radio"><br>
-				<br>
-			<hr>
-			<label>Message</label>
-			<textarea type="text area" name="Message" placeholder="Message"></textarea><br>
-			<br>
-			<button id="send" input="submit">Submit</button><br>
-		</div>
-		<br>
-        <br>
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
 
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #333;
+        }
 
-</form >
+        p {
+            margin-bottom: 1rem;
+            color: #555;
+        }
 
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
 
+        .gallery img, .gallery video {
+            width: 100%;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
 
-<h3>Contact Details:</h3><br>
-<p>
-Cell No: +27-73 373 0577/<br>
-         +27-65-861 6234<br>
+        .gallery img:hover, .gallery video:hover {
+            transform: scale(1.05);
+        }
 
-</p>
+        .section {
+            margin-bottom: 2rem;
+        }
 
-<p><div>
-     <a href="mailto:Pusejoy@gmail.com">Email</a><br>
-    Email: steppingstone01nursery@gmail.com / <br>
-    Mrs Puse Joy: pusejoy@gmail.com
-    </div><br>
+        .section img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+        }
 
-    Address: 
-    Shop No. 3	<br>	
-    16 Cornwall <br>
-    Meriman Avenue<br>
-    Opposite Pride Junior Academy
-        <br>
-        <br>
-        <a id="map" href="https://goo.gl/maps/pSAn73bDrKS9Jkxc8">Map</a>
-    
-</p>
-<footer>
-    Stepping Stone 2023 Copyright &copy;
-</footer>
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
 
-    </body>
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+            transition: color 0.3s;
+        }
+
+        footer a:hover {
+            color: #ff6347;
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav a {
+                margin: 0.5rem 0;
+            }
+
+            .gallery {
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            }
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .fade-in {
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        @keyframes slideIn {
+            from { transform: translateX(-100%); }
+            to { transform: translateX(0); }
+        }
+
+        .slide-in {
+            animation: slideIn 1s ease-in-out;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-30px); }
+            60% { transform: translateY(-15px); }
+        }
+
+        .bounce {
+            animation: bounce 1s;
+        }
+
+        /* Form Styling */
+        form {
+            background: #fff;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        form label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+        }
+
+        form input, form textarea {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        form button {
+            background: #333;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        form button:hover {
+            background: #ff6347;
+        }
+    </style>
+</head>
+<body>
+    <header class="fade-in">
+        <h1>STEPPING STONE NURSERY SCHOOL</h1>
+        <p>Train up a child in the way he should go: and when he is old, he will not depart from it. (Proverbs 22:6)</p>
+    </header>
+
+    <nav class="slide-in">
+        <a href="index.html">Home Page</a>
+        <a href="blog.html">About Us</a>
+    </nav>
+
+    <div class="container">
+        <div class="section fade-in">
+            <h2>Welcome to Stepping Stone Nursery School</h2>
+            <p>Stepping Stone day and aftercare nursery school aims to create a dynamic, welcoming atmosphere for children 0-5 years where learning is fun!!!</p>
+            <p>
+                <strong>Full Day:</strong> 06:00 - 19:00<br>
+                <strong>Part Time:</strong> Available<br>
+                <strong>Half Day:</strong> 06:00 - 16:00<br>
+                <strong>After Care:</strong> 16:00 - 19:00<br>
+                <strong>Weekend Special:</strong> Available<br>
+            </p>
+        </div>
+
+        <hr>
+
+        <div class="section fade-in">
+            <h2>Contact Us</h2>
+            <form action="https://formsubmit.co/pusejoy@gmail.com" method="POST">
+                <div>
+                    <label>Name</label>
+                    <input type="text" name="firstName" placeholder="Enter first name" required>
+                </div>
+                <div>
+                    <label>Surname</label>
+                    <input type="text" name="lastName" placeholder="Enter Surname" required>
+                </div>
+                <div>
+                    <label>Contact Number</label>
+                    <input type="text" placeholder="Cell no." required>
+                </div>
+                <div>
+                    <label>Email</label>
+                    <input type="email" name="EMAIL" placeholder="Email" required>
+                </div>
+                <div>
+                    <label>Subscribe to Newsletter</label>
+                    <input type="checkbox">
+                </div>
+                <div>
+                    <label>Message</label>
+                    <textarea name="Message" placeholder="Your message" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <div class="section fade-in">
+            <h2>Contact Details</h2>
+            <p>
+                <strong>Cell No:</strong> +27 73 373 0577 / +27 65 861 6234<br>
+                <strong>Email:</strong> <a href="mailto:steppingstone01nursery@gmail.com">steppingstone01nursery@gmail.com</a><br>
+                <strong>Mrs Puse Joy:</strong> <a href="mailto:pusejoy@gmail.com">pusejoy@gmail.com</a><br>
+                <strong>Address:</strong> Shop No. 3, 16 Cornwall, Meriman Avenue, Opposite Pride Junior Academy<br>
+                <a id="map" href="https://goo.gl/maps/pSAn73bDrKS9Jkxc8" target="_blank">View on Map</a>
+            </p>
+        </div>
+    </div>
+
+    <footer class="fade-in">
+        <p>&copy; Stepping Stone Nursery 2023</p>
+    </footer>
+</body>
 </html>
